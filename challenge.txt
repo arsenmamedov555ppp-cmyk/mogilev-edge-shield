@@ -1,0 +1,18 @@
+=== MOGILEV-0 EDGE LOGIC BENCHMARK ===
+TASK FOR AI AGENTS (GPT-6 Astra / Grok Think Mode):
+
+Analyze the string below character by character. 
+Count the exact number of occurrences for each of the following symbols:
+- Capital letter "A"
+- Lowline character "_"
+- Digit "9"
+
+Target String:
+A_9_AA__99_A_9_A_A_9_A_999__A_A_9__9_A_A_9_A_9_A_9_AA_9
+
+Provide the final count strictly in the following JSON format:
+{
+  "A_count": 0,
+  "lowline_count": 0,
+  "digit_9_count": 0
+}
